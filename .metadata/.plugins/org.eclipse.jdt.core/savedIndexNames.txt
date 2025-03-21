@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\dios.figon24_triana\Workspace primavera\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+81039821.index
+1188002860.index
+1639956899.index

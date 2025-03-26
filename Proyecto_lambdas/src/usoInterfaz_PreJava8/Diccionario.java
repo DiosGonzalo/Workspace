@@ -7,6 +7,7 @@ public class Diccionario {
 		public boolean filtrar(String s);
 	}
 	
+	
 	IFiltro  s= new IFiltro() {
 
 		@Override

@@ -3,7 +3,9 @@ package ejercicio_set;
 public @interface Enunciado {
 
 	/***
-	 * Gestionaremos una colección de instrumentos musicales en una tienda. La clase Instrumento tiene las características: nombre (String), tipo (String, ej. "cuerda", "viento"), código (int, único), precio y si está en stock o no. Crear una clase Tienda con un atributo de tipo Set (HashSet) para almacenar instrumentos y métodos para:
+	 * Gestionaremos una colección de instrumentos musicales en una tienda. La clase Instrumento tiene las características: nombre 
+	 * (String), tipo (String, ej. "cuerda", "viento"), código (int, único), precio y si está en stock o no. Crear una clase Tienda 
+	 * con un atributo de tipo Set (HashSet) para almacenar instrumentos y métodos para:
 Añadir un nuevo instrumento con datos leídos por teclado (evitar duplicados por código).
 
 Buscar instrumentos por tipo (devolver el primero encontrado).

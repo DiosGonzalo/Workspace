@@ -1,6 +1,6 @@
 package ejercicio_set;
 
-public class Instrumento {
+public class Instrumento implements Comparable<Instrumento>{
 	private String nombre;
 	private String tipo;
 	private int codigo;
@@ -44,11 +44,24 @@ public class Instrumento {
 		this.precio = precio;
 		this.stock = stock;
 	}
+	
+	public Instrumento(String nombre, String tipo, double precio, boolean stock) {
+		super();
+		this.nombre = nombre;
+		this.tipo = tipo;
+		this.precio = precio;
+		this.stock = stock;
+	}
 	@Override
 	public String toString() {
 		return "Instrumento [nombre=" + nombre + ", tipo=" + tipo + ", codigo=" + codigo + ", precio=" + precio
 				+ ", stock=" + stock + "]";
 	}
+	@Override
+	public int compareTo(Instrumento o) {
+		return Integer.compare(this.codigo, o.getCodigo());
+	}
+	
 	
 	
 	
